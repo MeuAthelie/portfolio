@@ -1,0 +1,27 @@
+/* Estilize os containers */
+.container {
+    width: 100%;
+    max-width: 600px; /* Largura máxima para evitar que fiquem muito largos */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center; /* Centraliza o conteúdo verticalmente */
+    margin-bottom: 20px; /* Espaço entre os containers */
+}
+
+/* Estilize o menu */
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
